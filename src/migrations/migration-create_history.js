@@ -20,6 +20,10 @@ module.exports = {
       description: {
         type: Sequelize.TEXT,
       },
+      // files: DataTypes.TEXT,
+      files: {
+        type: Sequelize.TEXT,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

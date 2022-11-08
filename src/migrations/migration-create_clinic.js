@@ -8,6 +8,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
+      // name : DataTypes.STRING,
+      name: {
+        type: Sequelize.STRING,
+      },
       // address: DataTypes.STRING,
       address: {
         type: Sequelize.STRING,
